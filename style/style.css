@@ -76,6 +76,8 @@
 main {
     max-width: 1140px;
     margin: 0 auto;
+    
+    
 
 
 }
@@ -83,6 +85,7 @@ main {
 main section {
     margin-top: 116px;
     margin-bottom: 116px;
+    
 }
 
 
@@ -155,10 +158,42 @@ main section {
 .review-title {
     font-size: 42px;
     font-weight: bold;
-    color: #252432;   
+    color: #252432;
 }
 
-.card{
-    background-color: #F2EDED , #FFFFFF;
-    border-radius: 10px;
+
+
+
+/* Focus Styles */
+
+
+#focus-container {
+    background-color: rgba(78, 71, 255, 10%);
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+.focus-description {
+    color: rgba(0, 0, 0, 50%);
+    margin-bottom: 20px;
+}
+
+
+.focus-title-container {
+    margin-bottom: 20px;
+}
+
+#focus-container img {
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+
 }
