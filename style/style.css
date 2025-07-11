@@ -76,8 +76,8 @@
 main {
     max-width: 1140px;
     margin: 0 auto;
-    
-    
+
+
 
 
 }
@@ -85,7 +85,7 @@ main {
 main section {
     margin-top: 116px;
     margin-bottom: 116px;
-    
+
 }
 
 
@@ -169,8 +169,9 @@ main section {
 
 #focus-container {
     background-color: rgba(78, 71, 255, 10%);
-    padding: 71px 150px;
+    padding: 45px 150px;
     border-radius: 14px;
+
 }
 
 .focus-title {
@@ -196,4 +197,60 @@ main section {
     height: 364.77px;
     border-radius: 48px;
 
+}
+
+
+
+/* Contact/Form Style */
+
+.contact-section {
+    padding: 71px 0px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-text h1 {
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 497px;
+    max-width: 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.contact-form input,
+.contact-form textarea {
+
+    background-color: #FFFFFF;
+    outline: none;
+    padding: 15px 32px;
+    font-size: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+.contact-form button:hover {
+    background-color: #3730a3;
 }
