@@ -28,6 +28,13 @@
 }
 
 
+body {
+    background-color: #f5f6fa;
+    margin: 0;
+}
+
+
+
 
 /* Header styles */
 
@@ -253,4 +260,36 @@ main section {
 
 .contact-form button:hover {
     background-color: #3730a3;
+}
+
+
+/* Footer Styels */
+
+.footer {
+ background-color: #ffffff;
+ padding: 104px 455px 103px 454px;
+ text-align: center;
+
+}
+
+.footer-logo {
+    font-size: 100px;
+    font-weight: 900px;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 15px;
+    color: #666;
+    margin: 0 auto 30px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: o;
+    gap: 48px;
 }
